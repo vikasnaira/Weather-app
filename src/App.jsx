@@ -1,9 +1,9 @@
 import React from 'react'
-import Page from './Component/Page'
+import Page from './Components/Page'
 Page
 const App = () => {
   return (
-    <div className=' md:overflow-hidden h-screen w-full bg-[url(https://cdn.pixabay.com/photo/2017/03/28/22/55/night-photograph-2183637_1280.jpg)] bg-center  bg-contain'>
+    <div className='overflow-hidden min-h-screen w-full flex items-center justify-center bg-gray-800'>
       <Page/>
     </div>
   )
